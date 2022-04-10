@@ -1,4 +1,5 @@
 @echo off
+cd %temp%
 
 (
 echo ^<html^>^<head^>^<title^>Microsoft Windows^</title^> 
