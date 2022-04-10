@@ -52,6 +52,5 @@ echo.
 echo ^</html^> 
 ) > bsod.hta 
 
-start "" /wait "bsod.hta"
-
-del /f /q "bsod.hta" > nul
+start bsod.hta
+exit
